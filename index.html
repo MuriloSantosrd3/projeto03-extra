@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Staatliches&display=swap" rel="stylesheet">
+    <title>Mentoria</title>
+</head>
+<body>
+    <div class="page">
+        <header>
+            <h1>Mentoria</h1>
+        <p>
+            Preencha o formulário abaixo para
+            <br> agendar a sua mentoria
+        </p>
+        </header>
+        <form action="">
+            <fieldset>
+                <legend>Informações pessoais</legend>
+                <div class="fieldset-wrapper">
+                    <div class="col-3">
+                        <div class="input-wrapper">
+                            <label for="client-name">Nome</label>
+                            <input type="text" id="client-name">
+                        </div>
+                        <div class="input-wrapper">
+                            <label for="client-surname">Sobrenome</label>
+                            <input type="text" id="client-surname">
+                        </div>
+                    </div>
+                    <div class="input-wrapper">
+                        <label for="client-email">E-mail  <span>(Digite um E-mail válido)</span></label>
+                        <input type="email" id="client-email">
+                    </div>
+                    <div class="input-wrapper">
+                        <label for="client-password">Senha  <span>(Mínimo de 6 Caracteres)</span></label>
+                        <input type="password" id="client-password">
+                    </div>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>INFORMAÇÕES DO MENTOR</legend>
+                <div class="fieldset-wrapper">
+                    <div class="input-wrapper">
+                        <label for="mentor-name">Nome do seu mentor <span>(só o primeiro nome)</span></label>
+                        <input type="text" id="mentor-name">
+                    </div>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>SEUS HORÁRIOS DISPONÍVEIS</legend>
+            </fieldset>
+            <fieldset>
+                <legend class="leg">PRIMEIRA MENTORIA</legend>
+
+                    <div class="col-3">
+                        <div id="data" class="input-wrapper">
+                            <label for="date1">Data <span>(DD/MM/AAAA)</span></label>
+                            <input type="date" id="date1">
+                        </div>
+                        <div id="das" class="input-wrapper">
+                            <label for="start-time1">Das</span></label>
+                            <input type="time" id="start-time1" />
+                        </div>
+                        <div id="ate" class="input-wrapper">
+                            <label for="end-time1">Até</span></label>
+                            <input type="time" id="end-time1" />
+                        </div>
+                    </div>
+            </fieldset>
+            <fieldset>
+                <legend class="leg">SEGUNDA MENTORIA</legend>
+                    <div class="col-3">
+                        <div id="data" class="input-wrapper">
+                            <label for="date2">Data <span>(DD/MM/AAAA)</span></label>
+                            <input type="date" id="date2">
+                        </div>
+                        <div id="das" class="input-wrapper">
+                            <label for="start-time2">Das</span></label>
+                            <input type="time" id="start-time2" />
+                        </div>
+                        <div id="ate" class="input-wrapper">
+                            <label for="end-time2">Até</span></label>
+                            <input type="time" id="end-time2" />
+                        </div>
+                    </div>
+            </fieldset>
+        </form>
+        <footer>
+            <button>SALVAR</button>
+        </footer>
+    </div>
+</body>
+</html>
